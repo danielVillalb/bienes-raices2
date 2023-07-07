@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bienes Raices</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/"></a>
+                <img src="img/logo.svg" alt="Logotipo de bienes raices">
+
+
+                <nav class="navegacion">
+                    <a href="/index.html">Home</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div><!--barra de navegacion-->
+        </div><!--contenedor-->
+    </header>
+
+    <main class="contenedor seccion contenido centrado">
+        <h2 class="fw-300 centrar-texto">Llena formulario de contacto</h2>
+        <form action="">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <label for="nombre">Nombre:</label><!--El nombre del label y el id del label tienen q ser iguales-->
+                <input type="text" id="nombre" placeholder="Ingrese su nombre">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Ingrese su correo electronico" required>
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" placeholder="Ingrese su telefono">
+
+                <label for="mensaje">Mensaje:</label>
+                <text-area name="mensaje" id="mensaje">Hola</text-area>
+
+
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset>
+                <legend>Informacion sobre Propiedad</legend>
+                <label for="opciones">Venta o Compra</label>
+                <select id="opciones">
+                    <option value="" disabled selected>--Seleccione--</option>
+                    <option value="">Compra</option>
+                    <option value=""></option>Venta</option><!--el value sirve para el back-->
+                </select>
+                <label for="cantidad">Cantidad</label>
+                <input type="number" min="0" step>
+
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset>
+                <legend>Contacto</legend>
+                <p>Como desea ser contactado</p>
+                <label for="telefono">Telefono</label>
+                <input type="radio" name="contacto" value="telefono" id="telefono">
+                <label for="correo">E-mail</label>
+                <input type="radio" name="contacto" value="correo" id="correo">
+                <p>Si eligio telefono, elija fecha y hora</p>
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha">
+                <label for="hora">Hora2</label>
+                <input type="time" id="hora" min="09:00" max="18:00">
+            </fieldset>
+        </form>
+        <input type="submit" value="Enviar" class="boton boton-verde">
+
+    </main>
+
+
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <p class="copyright">Todos los derechos Reservados 2023 &copy;</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
