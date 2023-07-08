@@ -211,6 +211,7 @@ h3{
     padding: 15px;
     position: relative;
     height: 200px;
+    margin: 25px;
 }
 .testimonios2::before{
     content: '';
@@ -244,6 +245,10 @@ footer{
     body{
         min-width: 400px;
     }
+    .site-header{
+        background-position: center center;
+        background-size: cover;
+}
     nav{
         display: none;
     }
@@ -283,7 +288,10 @@ footer{
     .testimonios2{
         background-color: #718100;
         margin:25px;
+  
     }
+    
+    
 
 
 }
